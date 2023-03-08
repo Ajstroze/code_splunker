@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: code-splunker
+Version: 1.0.0
+Summary: Search for code caves in a binary
+Home-page: https://github.com/Ajstroze/code-splunker
+Author: Ajstroze
+Author-email: ajstroze@gmail.com
+License: GNU General Public License v3 or later (GPLv3+)
+Keywords: Codecave
+Classifier: Development Status :: 1
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.11.2

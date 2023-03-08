@@ -1,34 +1,32 @@
 from setuptools import setup, find_packages
 
 setup(
-    name ='Code-Splunker',
+    name ='code-splunker',
     version ='1.0.0',
     description ='Search for code caves in a binary',
-    long_description = long_description,
-    url = 'https://github.com/Ajstroze/Code-Splunker',
+    url = 'https://github.com/Ajstroze/code-splunker',
     author = 'Ajstroze',
     author_email = "ajstroze@gmail.com",
     license = 'GNU General Public License v3 or later (GPLv3+)',
 
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 1',
         'Intended Audience :: Developers',
         'Topic :: System',
         'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.11.2',
     ],
 
     keywords = 'Codecave',
 
-    packages = find_packages(exclude=['contrib','docs','tests']),
+    packages = find_packages(),
 
-    install_requires=[],
+    #install_requires=[],
 
-    extras_require={},
+    #extras_require={},
 
     entry_points={
         'console_scripts': [
-            'code-splunker=code-splunker.main:main',
-      ],
-    },
+            'code_splunker=code_splunker.main:main',],
+    }
 )
