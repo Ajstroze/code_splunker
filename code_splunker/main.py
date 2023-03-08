@@ -1,6 +1,6 @@
 import argparse
 import os
-from .splunk import splunk
+from splunk import splunk
 
 banner = """
  _____           _        _____       _             _
@@ -11,15 +11,15 @@ banner = """
  \____/\___/ \__,_|\___| \____/| .__/|_|\__,_|_| |_|_|\_\___|_|
                                | |
                                |_|                                """
-def dir_path(string):
-    if os.path.isdir(string):
+def file_path(string):
+    if os.path.isfile(string):
         return string
     else:
         raise NotADirectoryError(string)
 
 def main():
     parser = argparse.ArgumentParser(description = 'Locate code caves within a program')
-    parser.add_argument('-f','--file', type=dir_path, required=True,help='File to look for codecaves')
+    parser.add_argument('-f','--file', type=file_path, required=True,help='File to look for codecaves')
     parser.add_argument('-s','--size',type=int , required = True, help='Minimum size of cave to look for')
     args = parser.parse_args()
     try:

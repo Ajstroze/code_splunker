@@ -5,7 +5,7 @@ def splunk_elf(file,size):
     pass
 
 def parse_type(file):
-    return type
+    return 'exe'
 
 def splunk(file,size):
     type = parse_type(file)
@@ -15,4 +15,3 @@ def splunk(file,size):
         splunk_elf(file,size)
     else:
         raise TypeError('File type must be either exe or elf, other fiel types not currently supported')
-    
