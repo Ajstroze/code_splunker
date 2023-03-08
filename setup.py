@@ -7,7 +7,7 @@ setup(
     url = 'https://github.com/Ajstroze/code_splunker',
     author = 'Ajstroze',
     author_email = "ajstroze@gmail.com",
-    packages = ['code_splunker']
+    packages = ['code_splunker'],
     license = 'GNU General Public License v3 or later (GPLv3+)',
 
     classifiers=[

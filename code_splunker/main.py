@@ -1,6 +1,6 @@
 import argparse
 import os
-import splunk
+from .splunk import splunk
 
 banner = """
  _____           _        _____       _             _
