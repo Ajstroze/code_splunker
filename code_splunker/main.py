@@ -24,7 +24,6 @@ def main():
     args = parser.parse_args()
     try:
         args.size >= 0
-        break
     except ValueError:
         print("Minimum cave size was be greater or equal to 0!")
         return -1

@@ -1,2 +1,0 @@
-[console_scripts]
-code_splunker = code_splunker.main:main

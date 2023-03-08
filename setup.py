@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name ='code-splunker',
+    name ='code_splunker',
     version ='1.0.0',
     description ='Search for code caves in a binary',
-    url = 'https://github.com/Ajstroze/code-splunker',
+    url = 'https://github.com/Ajstroze/code_splunker',
     author = 'Ajstroze',
     author_email = "ajstroze@gmail.com",
     license = 'GNU General Public License v3 or later (GPLv3+)',
@@ -27,6 +27,7 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'code_splunker=code_splunker.main:main',],
-    }
+            'code_splunker=code_splunker.main:main',
+        ],
+    },
 )

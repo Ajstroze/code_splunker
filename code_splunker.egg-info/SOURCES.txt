@@ -1,7 +1,0 @@
-README.md
-setup.py
-code_splunker.egg-info/PKG-INFO
-code_splunker.egg-info/SOURCES.txt
-code_splunker.egg-info/dependency_links.txt
-code_splunker.egg-info/entry_points.txt
-code_splunker.egg-info/top_level.txt
