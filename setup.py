@@ -1,4 +1,7 @@
-from setuptools import setup, find_packages
+from setuptools import setup
+
+packages = ['code_splunker']
+#packages = find_packages()
 
 setup(
     name ='code_splunker',
@@ -20,11 +23,7 @@ setup(
 
     keywords = 'Codecave',
 
-    #packages = find_packages(),
-
     #install_requires=[],
-
-    #extras_require={},
 
     entry_points={
         'console_scripts': [
