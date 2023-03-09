@@ -1,7 +1,6 @@
 from setuptools import setup
 
-packages = ['code_splunker']
-#packages = find_packages()
+install_requires = ['pefile']
 
 setup(
     name ='code_splunker',
@@ -11,6 +10,7 @@ setup(
     author = 'Ajstroze',
     author_email = "ajstroze@gmail.com",
     packages = ['code_splunker'],
+    install_requires = install_requires,
     license = 'GNU General Public License v3 or later (GPLv3+)',
 
     classifiers=[
@@ -22,8 +22,6 @@ setup(
     ],
 
     keywords = 'Codecave',
-
-    #install_requires=[],
 
     entry_points={
         'console_scripts': [

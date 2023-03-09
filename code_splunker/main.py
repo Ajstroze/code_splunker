@@ -1,5 +1,6 @@
 import argparse
 import os
+import time
 from code_splunker.splunk import splunk
 
 banner = """
@@ -29,7 +30,10 @@ def main():
         raise ValueError("Minimum cave size was be greater or equal to 0!")
     print(banner)
     print('[*] Starting the code splunking process...')
+    print(" ")
+    time.sleep(2)
     splunk(args.file,args.size)
+    print('[*] Splunking complete!')
 
 if __name__ == "__main__":
     main()
