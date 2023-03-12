@@ -17,5 +17,9 @@ pip install .
 ```
 
 ### Contributing
+Thank you for considering contributing to this project!  
+Please report any bugs, questions, or requests in the issues section.  
+Any pull requests are welcome and will be reviewd as I have time. Please leave clear commit messages and clean code.  
+For any feature requests, or if you are adding in new features, add proper documentation and reach out to discuss the additions before creating a pull request.
 ### License
-### Credits
+Released under GPL3 License  
