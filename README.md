@@ -7,7 +7,7 @@ code_splunker uses the pefile and elf modules to parse the contents of the file 
 
 ## Usage
 ``` code_splunker -f <path_to_file> -s <minimum size of cave> ```  
-<path_to_file> should be replaced with the path of the file you want to analyze  
+<path_to_file> should be replaced with the path of the file you want to analyze <minimum size of cave> should be replaced by the minimum size of the cave you wish to find.  
 
 ## Installation
 ``` 
