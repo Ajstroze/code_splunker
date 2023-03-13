@@ -5,7 +5,7 @@ class Cave:
         self.cave_begin = 0
         self.cave_end = 0
         self.vaddress = 0
-        self.permissions = None
+        self.permissions = ''
 
     def __str__(self):
         return '\n'.join(['Section name:             {section}',

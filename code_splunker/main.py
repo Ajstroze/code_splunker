@@ -32,8 +32,9 @@ def main():
     print('[*] Starting the code splunking process...')
     print(" ")
     time.sleep(2)
+    # Start the code cave search process
     splunk(args.file,args.size)
-    print('[*] Splunking complete!')
+    print('[*] Splunking complete')
 
 if __name__ == "__main__":
     main()

@@ -1,6 +1,6 @@
 from setuptools import setup
 
-install_requires = ['pefile']
+install_requires = ['pefile','pyelftools']
 
 setup(
     name ='code_splunker',
@@ -15,7 +15,7 @@ setup(
 
     classifiers=[
         'Development Status :: 1',
-        'Intended Audience :: Developers',
+        'Intended Audience :: Developers,reverse engineers, malware analysts, CTF competers',
         'Topic :: System',
         'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
         'Programming Language :: Python :: 3.11.2',
