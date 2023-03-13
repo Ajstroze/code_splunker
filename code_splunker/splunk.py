@@ -18,7 +18,7 @@ def splunk_exe(file,size):
             if byte == 0x00:
                 count += 1
             else:
-                if count > size:
+                if count >= size:
                     cave = Cave()
                     cave.section = section.Name.decode()
                     cave.cave_size = count
@@ -58,7 +58,7 @@ def splunk_elf(file,size):
             if byte == 0x00:
                 count += 1
             else:
-                if count > size:
+                if count >= size:
                     cave = Cave()
                     cave.section = section.name.decode()
                     cave.cave_size = count
